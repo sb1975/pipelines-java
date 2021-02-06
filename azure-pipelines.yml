@@ -23,11 +23,3 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-jobs:  
-- deployment: VMDeploy
-  displayName: web
-  environment:
-    name:  VMenv
-    resourceType: VirtualMachine
-    tags: web1
-  strategy:
